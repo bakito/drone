@@ -73,7 +73,7 @@ require (
 )
 
 replace (
-	github.com/drone/go-scm => github.com/bakito/go-scm v1.8.1-0.20201230160539-0fe925a6134a
+	github.com/drone/go-scm => github.com/bakito/go-scm v1.8.1-0.20201230190408-112128422965
 	github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
 )
 

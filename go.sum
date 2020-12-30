@@ -39,9 +39,15 @@ github.com/asaskevich/govalidator v0.0.0-20180315120708-ccb8e960c48f h1:y2hSFdXe
 github.com/asaskevich/govalidator v0.0.0-20180315120708-ccb8e960c48f/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=
 github.com/aws/aws-sdk-go v1.15.57 h1:inht07/mRNnvV4uAjjVgTVD7/rF+j0mXllYcNQxDgGA=
 github.com/aws/aws-sdk-go v1.15.57/go.mod h1:mFuSZ37Z9YOHbQEwBWztmVzqXrEkub65tZoCYDt7FT0=
+github.com/bakito/go-scm v1.8.1-0.20201230160539-0fe925a6134a h1:NsVNwc5WJnrvealAWXsZ5r8z4P867JJWGzT7/Y3Hfo0=
+github.com/bakito/go-scm v1.8.1-0.20201230160539-0fe925a6134a/go.mod h1:TtcYcU2wUwCorYk7J0BiJ45tJjxsQTgunxT5ds4SAIY=
+github.com/bakito/go-scm v1.8.1-0.20201230190408-112128422965 h1:yO0M1twSkfssIXKoK7ZifdbV0Iffc0+6jtk68CpH+uI=
+github.com/bakito/go-scm v1.8.1-0.20201230190408-112128422965/go.mod h1:lXwfbyrIJwFFME5TpzavkwO2T5X8yBK6t6cve7g91x0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 h1:xJ4a3vCFaGF/jqvzLMYoU8P317H5OQ+Via4RmuPwCS0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/bgentry/speakeasy v0.1.0/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kBD4zp0CCIs=
+github.com/blang/semver v3.5.1+incompatible h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ=
+github.com/blang/semver v3.5.1+incompatible/go.mod h1:kRBLl5iJ+tD4TcOOxsy/0fnwebNt5EWlYSAyrTnjyyk=
 github.com/bmatcuk/doublestar v1.1.1 h1:YroD6BJCZBYx06yYFEWvUuKVWQn3vLLQAVmDmvTSaiQ=
 github.com/bmatcuk/doublestar v1.1.1/go.mod h1:UD6OnuiIn0yFxxA2le/rnRU1G4RaI4UvFv1sNto9p6w=
 github.com/boltdb/bolt v1.3.1/go.mod h1:clJnj/oiGkjum5o1McbSZDSLxVThjynRyGBgiAx27Ps=
@@ -175,6 +181,7 @@ github.com/gregjones/httpcache v0.0.0-20181110185634-c63ab54fda8f/go.mod h1:Fecb
 github.com/h2non/parth v0.0.0-20190131123155-b4df798d6542 h1:2VTzZjLZBgl62/EtslCrtky5vbi9dd7HrQPQIx6wqiw=
 github.com/h2non/parth v0.0.0-20190131123155-b4df798d6542/go.mod h1:Ow0tF8D4Kplbc8s8sSb3V2oUCygFHVp8gC3Dn6U4MNI=
 github.com/hashicorp/consul v1.8.4 h1:XaCg97pt9APNhsaPAR6cd31psiWcO+cz+p9SBefnTtM=
+github.com/hashicorp/consul v1.9.1 h1:tbx99dTx8uOZHzSqQbGPg1QN4EVTJdPUy8E3rD+YH+M=
 github.com/hashicorp/consul/api v1.5.0 h1:Yo2bneoGy68A7aNwmuETFnPhjyBEm7n3vzRacEVMjvI=
 github.com/hashicorp/consul/api v1.5.0/go.mod h1:LqwrLNW876eYSuUOo4ZLHBcdKc038txr/IMfbLPATa4=
 github.com/hashicorp/consul/sdk v0.5.0 h1:WC4594Wp/LkEeML/OdQKEC1yqBmEYkRp6i7X5u0zDAs=

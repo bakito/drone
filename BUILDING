@@ -14,7 +14,7 @@
 
 
 
-export CGO_CFLAGS="-Wno-return-local-addr
+export CGO_CFLAGS="-Wno-return-local-addr"
 
 export DRONE_GITHUB_CLIENT_ID=clientID
 export DRONE_GITHUB_CLIENT_SECRET=secret

@@ -399,7 +399,6 @@ type (
 		PrivateKey     string `envconfig:"DRONE_STASH_PRIVATE_KEY"`
 		SkipVerify     bool   `envconfig:"DRONE_STASH_SKIP_VERIFY"`
 		Debug          bool   `envconfig:"DRONE_STASH_DEBUG"`
-		Version        string `envconfig:"DRONE_STASH_VERSION"`
 	}
 
 	// S3 provides the storage configuration.
