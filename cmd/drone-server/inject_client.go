@@ -195,7 +195,7 @@ func provideStashClient(config config.Config) *scm.Client {
 		logrus.WithError(err).
 			Fatalln("main: cannot parse the Stash Private Key")
 	}
-	client, err := stash.New(config.Stash.Server)
+	client, err := stash.NewVersioned(config.Stash.Server, config.Stash.Version)
 	if err != nil {
 		logrus.WithError(err).
 			Fatalln("main: cannot create the Stash client")
