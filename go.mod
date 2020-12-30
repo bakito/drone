@@ -72,6 +72,9 @@ require (
 	k8s.io/client-go v10.0.0+incompatible
 )
 
-replace github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
+replace (
+	github.com/drone/go-scm => github.com/bakito/go-scm v1.8.1-0.20201230160539-0fe925a6134a
+	github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
+)
 
 go 1.13

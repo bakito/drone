@@ -11,3 +11,21 @@
     export DRONE_GITHUB_CLIENT_ID=...
     export DRONE_GITHUB_CLIENT_SECRET=...
     drone-server
+
+
+
+export CGO_CFLAGS="-Wno-return-local-addr
+
+export DRONE_GITHUB_CLIENT_ID=clientID
+export DRONE_GITHUB_CLIENT_SECRET=secret
+
+
+
+DRONE_PATCH_VERSION=$((DRONE_PATCH_VERSION+1))
+go build -a -ldflags "-linkmode external -extldflags '-static' -s -w" -o drone-server .
+upx drone-server
+podman build -t quay.io/bakito/drone:1.10.1-p${DRONE_PATCH_VERSION} -f ../../docker/Dockerfile-patch .
+# podman run --rm -e   DRONE_GITHUB_CLIENT_ID=clientID -e DRONE_GITHUB_CLIENT_SECRET=secret quay.io/bakito/drone:1.10.1-p${DRONE_PATCH_VERSION}
+podman push quay.io/bakito/drone:1.10.1-p${DRONE_PATCH_VERSION}
+echo "DRONE_PATCH_VERSION ${DRONE_PATCH_VERSION}"
+
