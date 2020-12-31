@@ -43,6 +43,8 @@ github.com/bakito/go-scm v1.8.1-0.20201230160539-0fe925a6134a h1:NsVNwc5WJnrveal
 github.com/bakito/go-scm v1.8.1-0.20201230160539-0fe925a6134a/go.mod h1:TtcYcU2wUwCorYk7J0BiJ45tJjxsQTgunxT5ds4SAIY=
 github.com/bakito/go-scm v1.8.1-0.20201230190408-112128422965 h1:yO0M1twSkfssIXKoK7ZifdbV0Iffc0+6jtk68CpH+uI=
 github.com/bakito/go-scm v1.8.1-0.20201230190408-112128422965/go.mod h1:lXwfbyrIJwFFME5TpzavkwO2T5X8yBK6t6cve7g91x0=
+github.com/bakito/go-scm v1.8.1-0.20201231073001-b106217c4d11 h1:SdAWTx/+21kyRtY29VEOXeLE3Te9LyNCl6h98udsTd8=
+github.com/bakito/go-scm v1.8.1-0.20201231073001-b106217c4d11/go.mod h1:lXwfbyrIJwFFME5TpzavkwO2T5X8yBK6t6cve7g91x0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 h1:xJ4a3vCFaGF/jqvzLMYoU8P317H5OQ+Via4RmuPwCS0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/bgentry/speakeasy v0.1.0/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kBD4zp0CCIs=
